@@ -57,6 +57,11 @@ function Client(nom, prenom, pseudo, numeroClient) {
 
 var steve = new Client('Steve', 'LUCAS', 'steve44', 'A01');
 
-console.log(afficherPersonne.call(steve));
+
+afficherPersonne(steve);
+
+console.log(steve.numeroClient)
 console.log(steve.getInfos());
+
+
 
